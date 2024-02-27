@@ -1,8 +1,8 @@
 class Krunkit < Formula
   desc "A CLI tool to start Linux KVM or macOS Hypervisor framework virtual machines using the libkrun platform."
-  homepage "https://github.com/tylerfanelli/krunkit"
-  url "https://github.com/slp/krunkit/archive/refs/tags/0.1.1-krunkit.tar.gz"
-  sha256 "58ba968ef4800c22d44ca65afcfc1ac583e13bf317f3f6257bf9e98d501acdc9"
+  homepage "https://github.com/containers/krunkit"
+  url "https://github.com/containers/krunkit/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "cb997ee4f46f7b59c2b0afbd9ee4cf9442eac30aa78037a465a6c02cec2cca35"
   license "Apache-2.0"
 
   depends_on "rust" => :build
