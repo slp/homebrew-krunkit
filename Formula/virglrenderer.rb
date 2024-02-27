@@ -8,7 +8,7 @@ class Virglrenderer < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
-  depends_on "libepoxy-angle"
+  depends_on "libepoxy"
   depends_on "molten-vk"
 
   def install
