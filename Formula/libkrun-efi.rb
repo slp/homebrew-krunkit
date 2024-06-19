@@ -1,13 +1,13 @@
 class LibkrunEfi < Formula
   desc "Dynamic library providing KVM-based process isolation capabilities"
   homepage "https://github.com/containers/libkrun"
-  url "https://github.com/containers/libkrun/archive/refs/tags/v1.8.1.tar.gz"
-  sha256 "836127b03d88a954431eba3b7a76da8794c7e738568e16954eab3baf6dd55ca9"
+  url "https://github.com/containers/libkrun/archive/refs/tags/v1.9.3.tar.gz"
+  sha256 "064c0c11ba27d14a90adc50c79c560d01a0224788bcfbed6a9c24eb6550b5ab9"
   license "Apache-2.0"
 
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krunkit/master/bottles"
-    sha256 cellar: :any, arm64_sonoma: "e7686cceddcb4a21543fd6c97fc8762407a1de0e68470785362b9cf35a4f7ca8"
+    sha256 cellar: :any, arm64_sonoma: "f960c3ded9aaa078153f7cad35443998b4d5c2e9595e684ad676d1828f6feeae"
   end
 
   depends_on "rust" => :build
