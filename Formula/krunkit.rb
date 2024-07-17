@@ -7,7 +7,7 @@ class Krunkit < Formula
 
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krunkit/master/bottles"
-    sha256 cellar: :any, arm64_sonoma: "56abde23a66f50a517f010cfc2b0082ab17f4efc220b75ad160e59eeb0ced394"
+    sha256 cellar: :any, arm64_sonoma: "c3f04f124264091381074ad0c10c091560d2e4170d9e75e3f7946ae044916f06"
   end
 
   depends_on "rust" => :build
