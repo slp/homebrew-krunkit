@@ -18,7 +18,6 @@ class Krunkit < Formula
   def install
     system "make"
     bin.install "target/release/krunkit"
-    ln_s bin/"krunkit", bin/"vfkit"
   end
 
   test do
