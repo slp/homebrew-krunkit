@@ -1,13 +1,13 @@
 class Virglrenderer < Formula
   desc "VirGL virtual OpenGL renderer"
   homepage "https://gitlab.freedesktop.org/virgl/virglrenderer"
-  url "https://gitlab.freedesktop.org/slp/virglrenderer/-/archive/0.10.4c-krunkit/virglrenderer-0.10.4c-krunkit.tar.gz"
-  sha256 "b905e4900467757212c82b00c7ef98b427ab0ecfecfce6701b29d0fe09de4aa4"
+  url "https://gitlab.freedesktop.org/slp/virglrenderer/-/archive/0.10.4d-krunkit/virglrenderer-0.10.4d-krunkit.tar.gz"
+  sha256 "73e81b65290f3630a130ad658ef870a813d0788f747618d88db55515cc7267b5"
   license "MIT"
 
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krunkit/master/bottles"
-    sha256 cellar: :any, arm64_sequoia: "71dd0008d06646846a253d87e4ff5201275bf4d0ba2215b5461b22a0844316b5"
+    sha256 cellar: :any, arm64_sequoia: "776bdeb22d285cb911d245c49ac2a5d95560494af0eeb697afaedbf1ea2620bf"
   end
 
   depends_on "meson" => :build
