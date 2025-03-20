@@ -7,6 +7,7 @@ class MoltenVkKrunkit < Formula
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krunkit/master/bottles"
     sha256 cellar: :any, arm64_sequoia: "168f009930c636661de6766a91f42fcc8a5a4ced5e1e6ea6f1ad1be0c76fc92d"
+    sha256 cellar: :any, arm64_sonoma: "d0af2ed8cb0aaf8a94863c18935dd5b3697f009c3eb17f066344debce014809d"
   end
 
   stable do

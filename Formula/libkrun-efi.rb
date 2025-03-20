@@ -8,6 +8,7 @@ class LibkrunEfi < Formula
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krunkit/master/bottles"
     sha256 cellar: :any, arm64_sequoia: "29427bd6454433e66439708c0356cf558c9140393616b7587f03061c20a7a4cd"
+    sha256 cellar: :any, arm64_sonoma: "f4d976689e1608dd32d881964d4b1d934d32521e2ec17f242d90cd77b5872215"
   end
 
   depends_on "rust" => :build
