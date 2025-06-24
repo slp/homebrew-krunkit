@@ -1,13 +1,13 @@
 class LibkrunEfi < Formula
   desc "Dynamic library providing KVM-based process isolation capabilities"
   homepage "https://github.com/containers/libkrun"
-  url "https://github.com/containers/libkrun/archive/refs/tags/v1.13.0.tar.gz"
-  sha256 "f769ba4c4baa29bf3402008a85577dc34489a68d395a7ed6d2d6557f3686280f"
+  url "https://github.com/containers/libkrun/archive/refs/tags/v1.14.0.tar.gz"
+  sha256 "6e568ce7371f554653eff591506250741e1ffad0fb19abd26202b89d7eefcd17"
   license "Apache-2.0"
 
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krunkit/master/bottles"
-    sha256 cellar: :any, arm64_sequoia: "039c71ddd954ef59556f3737b95b35777a800cc66ccb35509c2ddda39876b330"
+    sha256 cellar: :any, arm64_sequoia: "c8e65ebc1af2221a623f8cc0c10865eac7b6fc3f2aca271a94fc6832175a0774"
   end
 
   depends_on "rust" => :build
@@ -17,8 +17,8 @@ class LibkrunEfi < Formula
   depends_on "slp/homebrew-krunkit/virglrenderer"
 
   def install
-    system "make", "EFI=1"
-    system "make", "EFI=1", "PREFIX=#{prefix}", "install"
+    system "make", "EFI=1", "GPU=1"
+    system "make", "EFI=1", "GPU=1", "PREFIX=#{prefix}", "install"
   end
 
   test do
