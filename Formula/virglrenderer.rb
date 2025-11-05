@@ -2,7 +2,7 @@ class Virglrenderer < Formula
   desc "VirGL virtual OpenGL renderer"
   homepage "https://gitlab.freedesktop.org/virgl/virglrenderer"
   url "https://gitlab.freedesktop.org/slp/virglrenderer/-/archive/0.10.4e-krunkit/virglrenderer-0.10.4e-krunkit.tar.gz"
-  sha256 "73e81b65290f3630a130ad658ef870a813d0788f747618d88db55515cc7267b5"
+  sha256 "09d000623fbdb966cb604eb48c962a0815e8142383e6066d6494809335b76dbb"
   license "MIT"
 
   bottle do
