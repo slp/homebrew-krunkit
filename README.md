@@ -1,4 +1,4 @@
- Homebrew repository for krunkit (deprecated)
+# Homebrew repository for krunkit (deprecated)
 
 > [!WARNING]
 > **This tap is deprecated and no longer updated** (it is stuck at krunkit 1.1.1, which does
